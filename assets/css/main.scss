@@ -1,0 +1,23 @@
+---
+---
+
+@import "type-on-strap";
+
+body {
+    color: #383838;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 1.9em;
+    word-wrap: break-word;
+}
+
+img {
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+  .col-sm-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}

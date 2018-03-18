@@ -1,0 +1,164 @@
+---
+layout: default
+---
+
+<!--
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <div id="main" class="call-out"
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    {{ site.theme_settings.header_text }}
+  </div>
+  {% endif %}
+-->
+
+  <div class="container">
+  </br>
+  </br>
+  </br>
+    <div class="row">
+      <div class="col-sm-6">
+      </br>
+
+        <img src ="https://dl.dropboxusercontent.com/s/r6kwj7kb1hu8ot8/IMG_8112_900.jpg">
+      </div>
+      <div class="col-sm-6">
+        <h2>Vrtna roža Vrtilla</h2>
+        <h4>€227.00</h4>
+        </br>
+          <button type="button" onclick="location.href='mailto:cim.martin@gmail.com?Subject=Naročilo%20skulptura';"  class="btn btn-primary active">Naroči</button>
+        </br>
+        </br>
+        <p>
+          Vrtna roža Vrtillia služi kot dekorativni element, s katerim
+          lahko okrasimo vrtne predele pred hišo. Skulpturo sestavljajo leseni elementi,
+        premazani z zaščitnim lahkom. Oblikovanje je ročno delo.</p>
+        <p>
+          Dimenzije:
+          2m x 80cm x 80cm (odvisno od naročila)
+        </p>
+        <p>Postavitev: zahteva stabilna tla v katera se zasadi steblo skulpture.
+        </p>
+      </div>
+    </div>
+
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+
+
+    <div class="row">
+      <div class="col-sm-3">
+        <img src ="https://dl.dropboxusercontent.com/s/6pn2liw9svgojab/IMG_8091_1_1.jpg">
+
+      </div>
+      <div class="col-sm-3">
+        <img src ="https://dl.dropboxusercontent.com/s/a5ww2a8kescrud1/IMG_8115_1_1.jpg">
+      </div>
+      <div class="col-sm-3">
+        <img src ="https://dl.dropboxusercontent.com/s/2pvnoqa0nla1700/IMG_8097_1_1.jpg">
+      </div>
+
+      <div class="col-sm-3">
+        <img src ="https://dl.dropboxusercontent.com/s/nrexyn9k2ui65gw/IMG_8122_1_1.jpg">
+      </div>
+    </div>
+  </br>
+  </br>
+  </br>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src ="https://dl.dropboxusercontent.com/s/swydbpvhstaoyos/IMG_8116_1_1.jpg">
+      </div>
+
+    </div>
+
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <img src ="https://dl.dropboxusercontent.com/s/1ccc8hulvrvrvlh/IMG_81261_2.jpg">
+
+    </div>
+    <div class="col-sm-6">
+      <p>Primerna za obdarovanje večjih obletnic.</p>
+      <p>Oblikovanje skulpture je mogoče tudi po naročilu, mogočaje tudi
+        variacija barv ter števial listiov in oblika stebla.
+        Čas izdelave: cca 60 dni.
+      </p>
+
+      <p>
+        Skulptura je zaščitena proti vremenskim vplivom. Vzdrževanje skulpture se izvede z nanosom nove plasti laka.
+      </p>
+      <p>
+        Za naročila po meri nas kontaktirajte na spodnji povezavi:
+
+
+      </p>
+
+      <button type="button" onclick="location.href='mailto:cim.martin@gmail.com?Subject=Naročilo%20po%20meri';"  class="btn btn-primary active">Naročilo po meri</button>
+
+
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+  <!--
+  <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post-teaser">
+      {% if post.thumbnail %}
+      <div class="post-img">
+         <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      </div>
+      {% endif %}
+      <span>
+          <header>
+            <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+            <p class="meta">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+          </header>
+          <div class="excerpt">
+            {{ post.content | strip_html | truncate: "250" }}
+            <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>
+          </div>
+      </span>
+    </div>
+    {% endfor %}
+  </div>
+-->
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme_settings.str_previous_page }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      {{ site.theme_settings.str_next_page }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
