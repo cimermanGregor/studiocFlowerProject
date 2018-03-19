@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/studiocFlowerProject"
-url: "https://github.com"
+baseurl: ""
+url: "http://studioc.si"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
