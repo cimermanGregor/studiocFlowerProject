@@ -9,4 +9,4 @@ tags: [Contact]
 Kontaktirate nas lahko na sledeč naslov:
 
 
-<button type="button" onclick="location.href='mailto:cim.martin@gmail.com?Subject=Naročilo%20po%20meri';"  class="btn btn-primary active">Naročilo po meri</button>
+<button type="button" onclick="location.href='mailto:roza@cime.si?Subject=Naročilo%20po%20meri';"  class="btn btn-primary active">Naročilo po meri</button>
