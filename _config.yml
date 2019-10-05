@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "http://studioc.si"
+url: "http://roza.cime.si"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: StudioC.si
+  title: Roza
   avatar: assets/img/logo.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -20,7 +20,7 @@ theme_settings:
 
   # Icons
   rss:   # Make sure you created a feed.xml with feed.xml layout
-  email_address: "cim.martin@gmail.com" # Full email address, e.g. "sam@example.com"
+  email_address: "roza@cime.si" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
